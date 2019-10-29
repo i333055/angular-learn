@@ -1,1 +1,4 @@
 
+1. template 避免使用复杂计算逻辑，因为change detection可能触发多次
+2. OnPush的变更检查方式， input变更（===）时候触发change detection（imutable）
+3. 组件分割（组件内部发生事件时，将触发change detection）
